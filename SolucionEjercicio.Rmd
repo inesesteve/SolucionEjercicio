@@ -41,4 +41,11 @@ d. Usa la función intersect y almacena en la variable commonAnimals los aminale
 commonAnimals <- intersect(rownames(mammals), rownames(Animals2))
 ```
 e. Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
+```{r}
+setdiff(union(rownames(mammals), rownames(Animals2)),intersect(rownames(mammals), rownames(Animals2)))
+
+length(setdiff(union(rownames(mammals), rownames(Animals2)),intersect(rownames(mammals), rownames(Animals2))))
+
+#parece ser que no todos son mamíferos, como por ejemplo, los dinosaurios "Triceratops"            "Brachiosaurus" 
+```
 f. Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
