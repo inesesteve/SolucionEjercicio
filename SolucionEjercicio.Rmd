@@ -1,3 +1,10 @@
+---
+title: "Solución Ejercicio"
+author: "Inés Esteve Mompó"
+date: "2023-10-13"
+output: html_document
+---
+
 1. Considera los conjuntos de datos mammals del paquete MASS y Animals2 del paquete robustbase.
 a. Mira la las características de ambos conjuntos usando la ayuda.
 b. Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
