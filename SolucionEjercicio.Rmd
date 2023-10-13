@@ -49,3 +49,5 @@ length(setdiff(union(rownames(mammals), rownames(Animals2)),intersect(rownames(m
 #parece ser que no todos son mamíferos, como por ejemplo, los dinosaurios "Triceratops"            "Brachiosaurus" 
 ```
 f. Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
+Tal como hemos comentado en el apartado anterior, parece ser que no todos los animales son mamíferos, como por ejemplo, los dinosaurios "Triceratops" o"Brachiosaurus". Además, vemos que algunos animales viven en el artico "Arctic fox", "Arctic ground squirrel"... mientras otros no. 
+También observamos que hay algunos cambios en la escritura de algunos animales: "Arctic fox" y "Artic fox", "Arctic ground squirrel" y "Artic ground squirrel", "Patas monkey" y "Potar monkey"...
