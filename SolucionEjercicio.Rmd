@@ -15,6 +15,19 @@ data("mammals")
 data("Animals2")
 ```
 b. Usa las funciones dim, head, tail, str para una primera visión de los conjuntos de datos.
+```{r}
+#print(mammals) 
+dim(mammals)
+head(mammals)
+tail(mammals)
+str(mammals)
+
+#print(Animals2)
+dim(Animals2)
+head(Animals2)
+tail(Animals2)
+str(Animals2)
+```
 c. Muestra los nombres de las filas y las columnas (rownames, colnames).
 d. Usa la función intersect y almacena en la variable commonAnimals los aminales que aparezcan en ambos conjuntos.
 e. Usa setdiff para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
